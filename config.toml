@@ -1,0 +1,17 @@
+theme = "boo_berry"
+
+[editor]
+true-color = true
+line-number = "relative"
+bufferline = "multiple"
+
+
+[editor.cursor-shape]
+insert = "bar"
+
+[keys.normal]
+C-s = ":w"
+
+[keys.insert]
+j = {j = "normal_mode"}
+ 
